@@ -1,4 +1,4 @@
-const API_URL = const API_URL = 'https://student-info-backend-7hnb.onrender.com/students';
+const API_URL = 'https://student-info-backend-7hnb.onrender.com/students';
 
 const maxDisplay = 50;
 
