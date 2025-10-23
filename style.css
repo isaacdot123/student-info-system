@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #343a40;
+}
+
+form input,
+form select {
+  box-shadow: none !important;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+#searchInput {
+  max-width: 400px;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  border-radius: 0.375rem;
+}
+
+table {
+  background-color: white;
+  border-radius: 0.375rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+table th,
+table td {
+  vertical-align: middle !important;
+}
+
+.delete-btn {
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #dc3545cc;
+  border-color: #dc3545cc;
+  color: white;
+  cursor: pointer;
+}
